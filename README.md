@@ -36,8 +36,6 @@ Here's a live demo of the project bellow:
 
 ...coming soon
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
-
 ## Got feedback for me?
 
 I am always looking to improve on my skills and appreciate receiving feedback and criticisms! So if you have anything you'd like to mention, please email trillionclues[at]gmail[dot]com.

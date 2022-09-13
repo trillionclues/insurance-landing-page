@@ -7,7 +7,7 @@ import howWe from '../assets/bg-pattern-how-we-work-desktop.svg'
 
 export const Main = () => {
   return (
-    <MainSection>
+    <MainSection id='main'>
       <div className='title'>
         <div className='hero-line'></div>
         <h2>We're Different</h2>
@@ -57,7 +57,7 @@ export const Main = () => {
 }
 
 const MainSection = styled.div`
-  padding: 10rem 9rem;
+  padding: 8rem 9rem 5rem 9rem;
   position: relative;
   .title {
     text-align: left;
@@ -112,7 +112,7 @@ const MainSection = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 2.8rem 2rem;
-    margin: 5rem 0;
+    margin: 5rem 0 0 0;
     background-color: hsl(256, 26%, 20%);
     position: relative;
     font-family: 'DM Serif Display', serif;
@@ -149,7 +149,7 @@ const MainSection = styled.div`
   .overlay {
     display: flex;
     position: absolute;
-    top: 59%;
+    top: 68.5%;
     left: 65.2%;
     z-index: 5;
     height: 11.7rem;

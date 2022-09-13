@@ -4,7 +4,7 @@ import logo from '../assets/logo.svg'
 
 export const Navbar = () => {
   return (
-    <Nav>
+    <Nav id='nav'>
       <div className='brand'>
         <div className='container'>
           <img src={logo} alt='Insure Logo' />
@@ -71,17 +71,20 @@ const Nav = styled.nav`
         word-spacing: 4px;
         transition: 0.3s ease-in-out;
         &:hover {
-          background-color: hsl(216, 23%, 36%);
+          background-color: hsl(256, 26%, 20%);
           color: white;
           padding: 0.3rem;
           border-radius: 3px;
           border: none;
+          &:active {
+            outline: none;
+          }
         }
       }
       &:last-of-type {
         a {
           border: 2px solid grey;
-          color: hsl(216, 23%, 36%);
+          color: hsl(256, 26%, 20%);
           padding: 0.4rem;
           word-spacing: 2px;
           font-weight: 700;

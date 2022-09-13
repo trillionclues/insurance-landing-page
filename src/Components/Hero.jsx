@@ -6,7 +6,7 @@ import heroImg from '../assets/image-intro-desktop.jpg'
 
 export const Hero = () => {
   return (
-    <HeroSection>
+    <HeroSection id='hero'>
       <div className='container'>
         <div className='hero-line'></div>
         <h1>Humanizing your insurance.</h1>
@@ -58,8 +58,8 @@ const HeroSection = styled.div`
 
     p {
       padding-top: 0.5rem;
-      color: hsl(273, 4%, 51%);
-      /* opacity: 0.7; */
+      color: #fff;
+      opacity: 0.7;
       line-height: 1.2rem;
       /* font-weight: 600; */
       font-size: 1rem;

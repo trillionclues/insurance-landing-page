@@ -23,6 +23,15 @@ body {
   --very-light-gray: hsl(0, 0%, 98%);
 }
 
+::-webkit-scrollbar {
+  width: 0.4rem;
+  color: hsl(256, 26%, 20%);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(256, 26%, 20%);
+}
+
 /* fonts */
 
 /* font-family: 'DM Serif Display', serif;
