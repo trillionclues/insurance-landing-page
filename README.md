@@ -1,6 +1,6 @@
 # Frontend Mentor - Insure landing page
 
-![Design preview for the Insure landing page coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Insure landing page coding challenge](./src/assets/insure-demo-page.png)
 
 ## The challenge
 
@@ -34,7 +34,7 @@ Below is a listed process I took to complete this challenge - in no definitive o
 
 Here's a live demo of the project bellow:
 
-...coming soon
+[Insure Landing page demo](https://insure-page-frontendmentor.netlify.app/)
 
 ## Got feedback for me?
 
