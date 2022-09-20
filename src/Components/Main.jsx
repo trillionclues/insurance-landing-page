@@ -47,7 +47,7 @@ export const Main = () => {
         </div>
       </div>
 
-      <div className='about'>
+      <div id='about' className='about'>
         <h3>Find out more about how we work</h3>
         <button>How we work</button>
       </div>
@@ -153,5 +153,84 @@ const MainSection = styled.div`
     left: 65.2%;
     z-index: 5;
     height: 11.7rem;
+  }
+
+  @media screen and (min-width: 280px) and (max-width: 720px) {
+    padding: 8rem 2.2rem 5rem 2.2rem;
+    margin-top: 5rem;
+    .title {
+      text-align: center;
+      align-items: center;
+      .hero-line {
+        padding: 1px 6rem;
+      }
+      h2 {
+        font-size: 2.7rem;
+        opacity: 0.7;
+      }
+    }
+
+    .cycle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0;
+      .items {
+        text-align: center;
+        img {
+          height: 4.5rem;
+        }
+
+        .info {
+          h3 {
+            font-size: 1.7rem;
+            font-weight: 600;
+          }
+          p {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+
+    .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 5rem 1rem;
+      margin: 3rem 0 0 0;
+      position: relative;
+      width: 100%;
+      h3 {
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 4rem;
+        letter-spacing: 0.2rem;
+      }
+      button {
+        margin-left: 3rem;
+        padding: 1.2rem 2rem;
+        border: 3px solid hsl(0, 0%, 98%);
+        color: hsl(0, 0%, 98%);
+        font-size: 1.4rem;
+        opacity: 1;
+      }
+    }
+
+    .overlay {
+      display: none;
+      /* display: flex;
+      position: absolute;
+      top: 70.5%;
+      left: 37.5%;
+      z-index: 5;
+      height: 15rem; */
+      /* rotate: 10deg; */
+    }
   }
 `

@@ -148,7 +148,7 @@ const FooterSection = styled.div`
         top: 37%;
         left: 50%;
         height: 2px;
-        width: 66rem;
+        width: 61rem;
         background-color: hsl(273, 4%, 51%);
         opacity: 0.5;
       }
@@ -190,14 +190,85 @@ const FooterSection = styled.div`
   .attribute {
     font-family: 'Karla', sans-serif;
     text-align: center;
-    padding: 0.4rem;
+    padding: 0.4rem 0 0 0;
     margin: 3rem 0 0rem 0;
-    background-color: hsl(273, 4%, 51%);
+    /* background-color: hsl(273, 4%, 51%); */
     span {
       a {
         text-decoration: underline;
         color: black;
       }
+    }
+  }
+
+  @media screen and (min-width: 280px) and (max-width: 1024px) {
+    .container {
+      position: relative;
+      .container-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5rem;
+        img {
+          height: 2rem;
+          opacity: 1;
+        }
+        ul {
+          gap: 0.8rem;
+          font-size: 1.7rem;
+          margin-top: 0.6rem;
+          opacity: 0.7;
+        }
+        .footer-line {
+          position: absolute;
+          top: 20%;
+          height: 2px;
+          width: 22rem;
+          background-color: hsl(273, 4%, 51%);
+          opacity: 0.3;
+        }
+      }
+
+      .details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+        margin: 0;
+        ul {
+          gap: 0.4rem;
+          li {
+            a {
+              font-size: 1.2rem;
+              font-weight: 600;
+              line-height: 1.3;
+            }
+            &:first-of-type {
+              margin-bottom: 1rem;
+              opacity: 0.6;
+            }
+          }
+        }
+      }
+    }
+    .attribute {
+      position: absolute;
+      left: 50%;
+      right: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      padding: 0.7rem 2rem;
+      background-color: hsl(216, 23%, 36%);
+      width: 50%;
+      /* margin-left: 5rem; */
+      margin-top: 3rem;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      /* opacity: 0.7; */
     }
   }
 `
